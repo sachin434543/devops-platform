@@ -1,5 +1,7 @@
+
 apiVersion: apps/v1
 kind: Deployment
+
 metadata:
   name: devops-platform
 
@@ -18,8 +20,7 @@ spec:
     spec:
       containers:
       - name: devops-platform
-        image: devops-platform:v1
-        imagePullPolicy: Never
+        image: sachinjaat4345/devops-platform:v1
 
         ports:
         - containerPort: 3000
