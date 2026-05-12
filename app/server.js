@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('DevOps Platform Running Successfully 🚀');
+   res.send("CI/CD Auto Deployment Working 🚀");
 });
 
 app.get('/health', (req, res) => {
